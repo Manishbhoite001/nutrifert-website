@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nutrifert Agri Inputs Pvt. Ltd.</title>
+
+<style>
+
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+scroll-behavior:smooth;
+}
+
+header{
+background:#2e7d32;
+color:white;
+padding:10px 40px;
+display:flex;
+size: 70px;
+justify-content:space-between;
+align-items:center;
+}
+h2{
+    font-size: 65px;
+}
+
+nav a{
+color:black;
+text-decoration:none;
+margin:0 45px;
+font-weight:bold;
+}
+
+nav{
+background:#f2f2f2;
+padding:12px;
+text-align:center;
+}
+
+.hero{
+height:500px;
+background:url("https://images.unsplash.com/photo-1500382017468-9049fed747ef") center/cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+opacity: 0.70;
+text-align:center;
+}
+
+.hero h1{
+font-size:100px;
+margin-bottom:10px;
+}
+
+.btn{
+padding:12px 20px;
+margin:10px;
+border:none;
+background:#2e7d32;
+color:white;
+cursor:pointer;
+font-size:16px;
+}
+
+section{
+padding:60px 80px;
+text-align:center;
+}
+
+.services, .products{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+border:1px solid #ddd;
+padding:20px;
+width:280px;
+border-radius:6px;
+}
+
+.card img{
+width:100%;
+border-radius:6px;
+}
+
+.contact-form{
+max-width:600px;
+margin:auto;
+}
+
+.contact-form input,
+.contact-form textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<style>
+.img2{
+    height: 100px;
+    width: 100px;
+}
+</style>
+<img src="img2.jpg" alt="nutrifertagri">
+<h2>Nutrifert Agri Inputs Pvt. Ltd.</h2>
+<div>📞 +91 774458687 | ✉ nutrifertagri@gmail.com</div>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#products">Products</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<h1>Good Nature, Good Future</h1>
+<p>Science-backed formulations for sustainable agriculture</p>
+<button class="btn" onclick="scrollToSection('products')">Explore More</button>
+
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+<p>
+At Nutrifert Agri Inputs Pvt. Ltd., we revolutionize agriculture with sustainable
+solutions including water soluble fertilizers, micronutrients and PGRs tailored
+to crop needs.
+</p>
+</section>
+
+<section id="services">
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Water Soluble Fertilizers</h3>
+<p>Advanced fertilizer solutions for healthy crop growth.</p>
+</div>
+
+<div class="card">
+<h3>Micronutrients & Fertilizers</h3>
+<p>Essential nutrients that improve plant productivity.</p>
+</div>
+
+<div class="card">
+<h3>Biostimulants & PGRs</h3>
+<p>Boost plant growth and soil fertility.</p>
+</div>
+
+</div>
+</section>
+
+<section id="products">
+
+<h2>Our Products</h2>
+
+<div class="products">
+
+<style>
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+</style>
+
+<div class="card">
+<img src="img1.jpg">
+<h3>NPK 19:19:19</h3>
+<p>Balanced nutrition for all crops.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399">
+<h3>Zinc Sulphate</h3>
+<p>Corrects zinc deficiency in plants.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399">
+<h3>Zinc Sulphate</h3>
+<p>Corrects zinc deficiency in plants.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6">
+<h3>Humic Acid</h3>
+<p>Improves soil health and fertility.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p>
+Gut No. 626, Pune Saswad Rd, Vadaki, Pune 412308, Maharashtra, India
+</p>
+
+<div class="contact-form">
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<textarea rows="5" placeholder="Your Message"></textarea>
+
+<button class="btn" onclick="alert('Message Sent Successfully')">
+Send Message
+</button>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Nutrifert Agri Inputs Pvt. Ltd. | Designed by nutrifertagri
+</footer>
+
+<script>
+
+function scrollToSection(id){
+document.getElementById(id).scrollIntoView({
+behavior:'smooth'
+});
+}
+
+</script>
+
+</body>
+</html>
+
